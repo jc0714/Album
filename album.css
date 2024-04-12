@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Comic Sans MS', 'Times New Roman', serif;
+    text-align: center;
+    color: white; 
+    font-size: 48px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  body{
+    background-color:lightgrey;
+  }
+  
+  img{
+    display: flex;
+    height:100px;
+    margin: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    transition: transform .5s ease;
+    
+  }
+  
+  img:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+    transition: transform .5s ease, box-shadow .3s ease; 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); 
+    
+  }
